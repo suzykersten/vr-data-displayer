@@ -45,7 +45,7 @@ public class BarGraph : MonoBehaviour
 
             foreach(DataPoint point in dataPoints)
             {
-
+                point.value = point.value / 9;
                 int row = 0;
 
                 for (int i = 0; i < point.value; i++)
@@ -53,6 +53,8 @@ public class BarGraph : MonoBehaviour
 
 
                     GameObject instance = Instantiate(model);
+                    instance.isStatic = true;
+
                     instance.transform.parent = this.transform;
                     instance.transform.position = new Vector3(x, y, z);
 
