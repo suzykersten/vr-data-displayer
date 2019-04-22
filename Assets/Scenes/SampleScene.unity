@@ -999,7 +999,7 @@ GameObject:
   - component: {fileID: 1752655661}
   - component: {fileID: 1752655660}
   m_Layer: 0
-  m_Name: New Text
+  m_Name: info text
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1013,13 +1013,13 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1752655659}
-  m_Text: "Data Displayer - Press the button on the right of the headset \nto either
-    move up or down: Change what mode you are in by clicking \n\"up\" or \"down\"
-    buttons on the left in-game. \n\nHover over any column to see the value it represents.\n\nSeen
-    to the left is an example of '$2': two blocks is $4, four blocks is $8, and so
-    on."
+  m_Text: "Data Displayer - Press the button on the\nright of the headset to either
+    move up or down\nchange what mode you are in by clicking \n\"up\" or \"down\"
+    buttons on the left in-game. \n\nHover over any column to see the value \nit represents.\n\nSeen
+    to the left is an example of '$3': \ntwo blocks is $6, four blocks is $9, and
+    so on."
   m_OffsetZ: 0
-  m_CharacterSize: 0.07
+  m_CharacterSize: 0.13
   m_LineSpacing: 1
   m_Anchor: 0
   m_Alignment: 0

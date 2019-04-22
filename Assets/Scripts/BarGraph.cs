@@ -68,7 +68,7 @@ public class BarGraph : MonoBehaviour
                     textMesh.text = point.name;
 
                     tooltip.transform.parent = GvrPointer.transform;
-                    tooltip.transform.position = new Vector3(0, 0, 20);
+                    tooltip.transform.position = new Vector3(0, 0, 10);
 
                     //make a script to toggle the visibility of the tooltip
                     tooltip.AddComponent<toggleVisible>();
